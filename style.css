@@ -1,0 +1,80 @@
+body{
+  background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)), url(image.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.login-box{
+  max-width: 700px;
+  float: none;
+  margin: 50px auto;
+}
+
+.login-left{
+  background: rgba(211, 211, 211, 0.5);
+  padding: 30px;
+
+}
+
+.login-right{
+
+  background: #fff;
+  padding: 30px;
+}
+
+.form-control{
+  background-color: transparent !important;
+}
+
+
+a{
+  color: #fff !important;
+
+
+}
+
+
+h1{
+  color: #fff !important;
+
+}
+
+h3{
+  color: #fff !important;
+  text-align: center;
+}
+.custom-select{
+
+  position: relative;
+  font-family: Arial;
+
+}
+
+table.gridtable{
+  border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      background: rgba(211, 211, 211, 0.5);
+
+}
+
+table.gridtable th{
+  background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+table.gridtable td{
+  border-width:1px;
+  padding:8px;
+  border-style:solid;
+  border-color:#666666;
+  background-color:#ffffff;
+}
+
+hr{
+  border: 10px solid green;
+  border-radius: 5px;
+}
